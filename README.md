@@ -2,6 +2,10 @@
 
 Portal responsivo desenvolvido em React + Vite para o **Ir Além 1** da Fase 2 do CardioIA.
 
+Este repositório contém o **protótipo administrativo complementar**. A execução
+dos modelos de Inteligência Artificial acontece no produto principal em
+Streamlit: https://cardioia-fiap.streamlit.app/
+
 ## Acessar o portal
 
 **URL pública:** https://julia-carvalho96.github.io/fiap-cardioia-portal/
