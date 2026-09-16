@@ -2,6 +2,10 @@
 
 Portal responsivo desenvolvido em React + Vite para o **Ir Além 1** da Fase 2 do CardioIA.
 
+## Acessar o portal
+
+**URL pública:** https://julia-carvalho96.github.io/fiap-cardioia-portal/
+
 > Todos os pacientes e agendamentos são fictícios. O projeto é exclusivamente educacional e não realiza diagnóstico.
 
 ## Integrantes
@@ -58,6 +62,6 @@ npm run dev
 npm run build
 ```
 
-## Pendências de publicação
+## Pendência da entrega
 
 - adicionar o link do vídeo não listado de até quatro minutos.
