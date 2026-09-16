@@ -1,30 +1,36 @@
 # CardioIA Portal — Grupo Aura
 
-Portal responsivo desenvolvido em **React + Vite** para o desafio **Ir Além 1** da Fase 2 do projeto CardioIA — FIAP.
+Portal responsivo desenvolvido em React + Vite para o **Ir Além 1** da Fase 2 do CardioIA.
 
-> Todos os pacientes e agendamentos são fictícios. O projeto é exclusivamente educacional, não realiza diagnóstico e não deve ser usado em decisões clínicas.
+> Todos os pacientes e agendamentos são fictícios. O projeto é exclusivamente educacional e não realiza diagnóstico.
+
+## Integrantes
+
+- Murilo Salla — RM568041
+- Elias da Silva de Souza — RM568500
+- Julia Duarte de Carvalho — RM567816
 
 ## Funcionalidades
 
 - autenticação simulada via Context API;
-- JWT fictício salvo no `localStorage`;
+- JWT fictício salvo no localStorage;
 - proteção de rotas;
 - dashboard de pacientes, consultas e prioridades;
 - listagem consumida de JSON local por uma camada de serviço;
 - busca de pacientes;
-- agendamento com `useState` e `useReducer`;
+- agendamento com useState e useReducer;
 - inclusão, persistência e remoção de consultas simuladas;
+- persistência local dos agendamentos;
 - layout responsivo com CSS Modules.
 
-## Tecnologias
+## Testes
 
-- React;
-- Vite;
-- React Router;
-- Context API;
-- Vitest;
-- Testing Library;
-- CSS Modules.
+`npm test -- --run` cobre rota protegida, login válido e inválido, busca e falha no carregamento de pacientes, criação/persistência/remoção de agendamentos e logout. `npm run build` valida a versão de produção.
+
+## Acesso de demonstração
+
+Informe qualquer e-mail fictício em formato válido e uma senha com pelo menos
+seis caracteres. Não reutilize credenciais reais neste protótipo.
 
 ## Estrutura
 
@@ -37,38 +43,21 @@ src/
 └── styles/
 ```
 
-## Executar localmente
+## Executar
 
-Pré-requisito: Node.js `22.13` ou superior, ou Node.js `24`.
+Pré-requisito: Node.js `22.13` ou superior, ou Node.js `24`. Essas versões são compatíveis com as dependências registradas no `package-lock.json`.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Acesse o endereço indicado pelo Vite, normalmente `http://localhost:5173`.
-
-## Testes e build
+## Validar a build
 
 ```bash
-npm test -- --run
 npm run build
 ```
 
-O workflow do GitHub Actions executa automaticamente os testes e a build em cada atualização da branch principal.
+## Pendências de publicação
 
-## Credenciais de demonstração
-
-As credenciais são inteiramente fictícias e aparecem preenchidas na própria tela de login. Não reutilize credenciais reais neste protótipo.
-
-## Integrantes
-
-- **Nome completo — RM:** preencher antes da entrega.
-
-## Vídeo de demonstração
-
-- **YouTube (não listado, até 4 minutos):** adicionar o link antes da entrega.
-
-## Origem
-
-O portal integra a Fase 2 do projeto principal [CardioIA](https://github.com/murilosalla-blip/fiap-ano02-fase01-cap01-cardioia), desenvolvido de forma independente das modalidades textual, tabular e visual.
+- adicionar o link do vídeo não listado de até quatro minutos.
